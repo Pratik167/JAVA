@@ -51,5 +51,6 @@ public class mouselistener
         f.setSize(500,500);
         f.setLayout(null);
         f.setVisible(true);
+        s.close();
     }
 }

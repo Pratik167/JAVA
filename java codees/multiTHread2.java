@@ -1,6 +1,9 @@
-class MyThread extends Thread {
-    public synchronized void run() {
-        for (int i = 1; i <= 3; i++) {
+class MyThread extends Thread 
+{
+    public synchronized void run() 
+    {
+        for (int i = 1; i <= 3; i++) 
+        {
             System.out.println(Thread.currentThread().getName() + " is running... " + i);
             try {
                 Thread.sleep(500);
